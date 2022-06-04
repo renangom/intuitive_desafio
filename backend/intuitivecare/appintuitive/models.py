@@ -23,4 +23,4 @@ class SCV(models.Model):
     Endereco = models.CharField(max_length=200)
     Representante = models.CharField(max_length=200)
     CargoRepresentante = models.CharField(max_length=200)
-    DataRegistroANS = models.DateTimeField()
+    DataRegistroANS = models.DateField()

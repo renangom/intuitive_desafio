@@ -1,18 +1,18 @@
 <template>
   <div>
     <BarraNavegacao />
-    <Container />
+    <ContEudo />
   </div>
 </template>
 
 <script>
 import BarraNavegacao from '@/components/Navbar/BarraNavegacao.vue'
-import Container from './components/Container/Container.vue'
+import ContEudo from './components/Container/ContEudo.vue'
 export default {
   name: 'App',
   components: {
     BarraNavegacao,
-    Container
+    ContEudo
 }
 }
 </script>
